@@ -1,10 +1,10 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import {oud} from "../assets/images/oud.jpg";
-import {nile} from "../assets/images/nile.jpg";
-import {gold} from "../assets/images/gold.jpg";
-import {sea} from "../assets/images/sea.jpg";
-import {nile2} from "../assets/images/2.jpg";
-import {nile1} from "../assets/images/1.jpg";
+import oudImage from "../assets/images/oud.jpg";
+import nileImage from "../assets/images/nile.jpg";
+import goldImage from "../assets/images/gold.jpg";
+import seaImage from "../assets/images/sea.jpg";
+import nile2Image from "../assets/images/2.jpg";
+import nile1Image from "../assets/images/1.jpg";
 
 export function HeritageSection() {
   return (
@@ -131,14 +131,14 @@ export function HeritageSection() {
               <div className="space-y-4">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={oud}
+                    src={oudImage}
                     alt="Traditional Arabic perfume"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={nile2}
+                    src={nile2Image}
                     alt="Rose perfume crafting"
                     className="w-full h-full object-cover"
                   />
@@ -147,14 +147,14 @@ export function HeritageSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={nile1}
+                    src={nile1Image}
                     alt="Luxury perfume collection"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={sea}
+                    src={seaImage}
                     alt="Heritage perfume bottle"
                     className="w-full h-full object-cover"
                   />
