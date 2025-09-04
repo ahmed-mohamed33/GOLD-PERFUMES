@@ -43,7 +43,6 @@ A luxurious Egyptian perfume e-commerce landing page built with React, Vite, and
 - **Language**: TypeScript/JavaScript
 - **Package Manager**: npm
 
-
 ## 📱 Responsive Breakpoints
 
 - **Mobile**: < 768px
@@ -55,9 +54,6 @@ A luxurious Egyptian perfume e-commerce landing page built with React, Vite, and
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-
-
----
 
 <div align="center">
   <p>Made with ❤️ for Egyptian heritage and modern web development</p>
