@@ -125,14 +125,14 @@ export function HeritageSection() {
               <div className="space-y-4">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src="/images/oud.jpg"
+                    src="/oud.jpg"
                     alt="Traditional Arabic perfume"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src="/images/2.jpg"
+                    src="/2.jpg"
                     alt="Rose perfume crafting"
                     className="w-full h-full object-cover"
                   />
@@ -141,14 +141,14 @@ export function HeritageSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src="/images/1.jpg"
+                    src="/1.jpg"
                     alt="Luxury perfume collection"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src="/images/sea.jpg"
+                    src="/sea.jpg"
                     alt="Heritage perfume bottle"
                     className="w-full h-full object-cover"
                   />
