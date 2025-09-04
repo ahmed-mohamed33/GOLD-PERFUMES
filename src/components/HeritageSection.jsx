@@ -1,8 +1,5 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import oud from "/oud.jpg";
-import nile from "/nile.jpg";
-import gold from "/gold.jpg";
-import sea from "/sea.jpg";
+
 export function HeritageSection() {
   return (
     <section
@@ -43,7 +40,10 @@ export function HeritageSection() {
           <div className="space-y-8" dir="rtl">
             <div className="space-y-6">
               <div className="inline-block">
-                <span className="text-[#CFAB8D] font-bold text-sm tracking-wider uppercase bg-white px-4 py-2 rounded-full shadow-md">
+                <span
+                  style={{ fontFamily: "Almarai, sans-serif" }}
+                  className="text-[#CFAB8D] font-bold text-sm tracking-wider uppercase bg-white px-4 py-2 rounded-full shadow-md"
+                >
                   اكتشف سر العراقة والجمال مع عطور جولد
                 </span>
               </div>
@@ -128,14 +128,18 @@ export function HeritageSection() {
               <div className="space-y-4">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={oud}
+                    src={
+                      "https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008821/dcgxyzsp66o7fadxmmz0.jpg"
+                    }
                     alt="Traditional Arabic perfume"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={nile}
+                    src={
+                      "https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008808/uri20eatgxkdyq2z7a0v.jpg"
+                    }
                     alt="Rose perfume crafting"
                     className="w-full h-full object-cover"
                   />
@@ -144,14 +148,18 @@ export function HeritageSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                    src={gold}
+                    src={
+                      "https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008759/kgxkgjyv0xwlcmpeoeeu.jpg"
+                    }
                     alt="Luxury perfume collection"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-500">
                   <ImageWithFallback
-                      src={sea}
+                    src={
+                      "https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008803/evctndiwsms0mi5bezhc.jpg"
+                    }
                     alt="Heritage perfume bottle"
                     className="w-full h-full object-cover"
                   />

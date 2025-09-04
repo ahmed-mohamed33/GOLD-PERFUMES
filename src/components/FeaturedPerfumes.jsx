@@ -2,10 +2,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Star } from "lucide-react";
-import oud from "/oud.jpg";
-import nile from "/nile.jpg";
-import gold from "/gold.jpg";
-import sea from "/sea.jpg";
+
 
 const perfumes = [
   {
@@ -14,7 +11,7 @@ const perfumes = [
     arabicName: "Pharaoh's Oud",
     price: "٤٥٠ جنيه",
     originalPrice: "٥٥٠ جنيه",
-    image: oud,
+    image: 'https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008821/dcgxyzsp66o7fadxmmz0.jpg',
     rating: 4.9,
     isNew: true,
     description: "عطر فاخر مستوحى من حضارة الفراعنة بأجود أنواع العود",
@@ -25,7 +22,7 @@ const perfumes = [
     arabicName: "Nile Jasmine",
     price: "٣٢٠ جنيه",
     originalPrice: null,
-    image: nile,
+    image: 'https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008793/tmoajssaxq9iiwzpyaqs.jpg',
     rating: 4.8,
     isNew: false,
     description: "عبير الياسمين المصري الأصيل من ضفاف النيل",
@@ -36,7 +33,7 @@ const perfumes = [
     arabicName: "Desert Gold",
     price: "٦٠٠ جنيه",
     originalPrice: null,
-    image: gold,
+    image: 'https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008815/oeusfvy9w3ydqajogz2p.jpg',
     rating: 5.0,
     isNew: false,
     description: "تركيبة حصرية تحاكي كنوز الصحراء المصرية الذهبية",
@@ -47,7 +44,7 @@ const perfumes = [
     arabicName: "Alexandria Amber",
     price: "٣٨٠ جنيه",
     originalPrice: "٤٥٠ جنيه",
-    image: sea,
+    image: 'https://res.cloudinary.com/dtdqcxn9c/image/upload/v1757008803/evctndiwsms0mi5bezhc.jpg',
     rating: 4.7,
     isNew: true,
     description: "عنبر البحر المتوسط بلمسة الإسكندرية العريقة",

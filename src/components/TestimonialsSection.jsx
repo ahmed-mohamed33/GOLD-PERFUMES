@@ -8,7 +8,7 @@ const testimonials = [
     name: "أحمد حسن",
     city: "القاهرة",
     rating: 5,
-    text: "عطور جولد رائعة ومميزة! عطر عود الفراعنة له رائحة فخمة تدوم طويلاً. جودة مصرية عالية وأسعار ممتازة.",
+    text: "عطور جولد رائعة ومميزة! عطر عود الفراعنة له رائحة فخمة تدوم طويلاً..",
     product: "عود الفراعنة",
   },
   {
@@ -73,7 +73,10 @@ export function TestimonialsSection() {
         {/* Section Header */}
         <div className="text-center mb-16" dir="rtl">
           <div className="inline-block mb-4">
-            <span className="text-[#CFAB8D] font-bold text-sm tracking-wider uppercase bg-[#BBDCE5] bg-opacity-30 px-4 py-2 rounded-full">
+            <span
+              style={{ fontFamily: "Almarai, sans-serif" }}
+              className="text-black  font-bold text-sm tracking-wider uppercase bg-[#BBDCE5] bg-opacity-30 px-4 py-2 rounded-full"
+            >
               آراء عملاء جولد
             </span>
           </div>
@@ -149,7 +152,10 @@ export function TestimonialsSection() {
                       </p>
                     </div>
                     <div className="text-left">
-                      <div className="inline-block bg-[#CFAB8D] bg-opacity-10 text-[#CFAB8D] px-3 py-1 rounded-full text-xs font-medium">
+                      <div
+                        style={{ fontFamily: "Almarai, sans-serif" }}
+                        className="inline-block bg-[#CFAB8D] bg-opacity-10 text-white px-3 py-1 rounded-full text-xs font-medium"
+                      >
                         {testimonial.product}
                       </div>
                     </div>
