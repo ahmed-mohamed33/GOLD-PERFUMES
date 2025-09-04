@@ -1,6 +1,6 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Button } from "./ui/button";
-
+import { hero } from "../assets/images/hero.jpg";
 export function HeroSection() {
   return (
     <section
@@ -60,7 +60,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative z-10">
               <ImageWithFallback
-                src="src/assets/images/hero.jpg"
+                src={hero}
                 alt="Luxury perfume bottle"
                 className="w-72 mx-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
                 style={{ height: "auto" }}
